@@ -20,10 +20,13 @@ Save the honeypot script as `honeypot.py`.
 
 ## 🏃‍♂️ Running the Honeypot
 ```bash
+sudo chmod +x honeypot.py
 python3 honeypot.py
 ```
 *For privileged ports (below 1024), run with sudo:*
 ```bash
+
+sudo chmod +x honeypot.py
 sudo python3 honeypot.py
 ```
 
